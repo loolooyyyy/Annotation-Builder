@@ -24,11 +24,11 @@ assert dummy.SomeInt() == ma.SomeInt(); // true
 
 ```
 
-Look at tests for complete example.
+Look at tests for a complete example.
 
 # Use case
-when using Guice, instead of Named("some name") you can use your own annotation.
-or for any other use you can imagine (and needs instantiating annotations
+when using Guice, instead of Names.Named("some name") you can use your own annotation.
+or for anything else you can imagine (and needs instantiating annotations
 of course).
 
 ```java
